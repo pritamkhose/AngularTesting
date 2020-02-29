@@ -1,0 +1,103 @@
+Microsoft Windows [Version 10.0.16299.98]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\Code\AngularCLI\AngularTesting\AngularTesting>ng serve
+
+chunk {main} main.js, main.js.map (main) 36.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 10.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Date: 2020-02-29T19:46:52.970Z - Hash: 0d9a97a28646f5a0be3c - Time: 18761ms
+
+WARNING in ./src/app/app.component.scss
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(16:3) Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+E:\Code\AngularCLI\AngularTesting\AngularTesting>ng test
+10% building 2/2 modules 0 active01 03 2020 01:18:00.934:WARN [karma]: No captured browser, open http://localhost:9876/
+01 03 2020 01:18:01.001:INFO [karma-server]: Karma v4.3.0 server started at http://0.0.0.0:9876/
+01 03 2020 01:18:01.006:INFO [launcher]: Launching browsers Chrome, Firefox with concurrency unlimited
+01 03 2020 01:18:01.039:INFO [launcher]: Starting browser Chrome
+01 03 2020 01:18:01.064:INFO [launcher]: Starting browser Firefox
+01 03 2020 01:18:11.659:WARN [karma]: No captured browser, open http://localhost:9876/
+01 03 2020 01:18:13.184:INFO [Firefox 73.0.0 (Windows 10.0.0)]: Connected on socket dtrXcJsLHrjpTOddAAAA with id 64803293
+01 03 2020 01:18:13.371:INFO [Chrome 80.0.3987 (Windows 10.0.0)]: Connected on socket 9aj9EeXI3uMJuWWDAAAB with id 72723911
+WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'
+Firefox 73.0.0 (Windows 10.0.0): Executed 7 of 14 SUCCESS (0 secs / 0.194 secs)
+WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'
+Firefox 73.0.0 (Windows 10.0.0): Executed 7 of 14 SUCCESS (0 secs / 0.194 secs)
+Chrome 80.0.3987 (Windows 10.0.0) WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'
+Firefox 73.0.0 (Windows 10.0.0): Executed 14 of 14 SUCCESS (0.404 secs / 0.293 secs)
+Chrome 80.0.3987 (Windows 10.0.0) WARN: 'Can't bind to 'routerLink' since it isn't a known property of 'a'.'
+Firefox 73.0.0 (Windows 10.0.0): Executed 14 of 14 SUCCESS (0.404 secs / 0.293 secs)
+Firefox 73.0.0 (Windows 10.0.0): Executed 14 of 14 SUCCESS (0.404 secs / 0.293 secs)
+Chrome 80.0.3987 (Windows 10.0.0): Executed 14 of 14 SUCCESS (0.364 secs / 0.296 secs)
+TOTAL: 28 SUCCESS
+TOTAL: 28 SUCCESS
+Terminate batch job (Y/N)? y
+
+E:\Code\AngularCLI\AngularTesting\AngularTesting>ng e2e
+[01:18:51] I/update - chromedriver: file exists E:\Code\AngularCLI\AngularTesting\AngularTesting\node_modules\protractor\node_modules\webdriver-manager\selenium\chromedriver_80.0.3987.106.zip
+[01:18:51] I/update - chromedriver: unzipping chromedriver_80.0.3987.106.zip
+[01:18:51] I/update - chromedriver: chromedriver_80.0.3987.106.exe up to date
+
+chunk {main} main.js, main.js.map (main) 36.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 10.7 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+Date: 2020-02-29T19:49:07.743Z - Hash: 0d9a97a28646f5a0be3c - Time: 11276ms
+
+WARNING in ./src/app/app.component.scss
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(16:3) Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+[01:19:08] I/launcher - Running 1 instances of WebDriver
+[01:19:08] I/direct - Using ChromeDriver directly...
+
+DevTools listening on ws://127.0.0.1:54059/devtools/browser/3724083c-0baa-4126-a7d4-5631be0fb691
+Jasmine started
+
+  workspace-project App
+    √ should display Home page
+    √ should display About Button
+    √ should display About page
+
+Executed 3 of 3 specs SUCCESS in 3 secs.
+[01:19:16] I/launcher - 0 instance(s) of WebDriver still running
+[01:19:16] I/launcher - chrome #01 passed
+
+E:\Code\AngularCLI\AngularTesting\AngularTesting>ng lint
+Linting "AngularTesting"...
+All files pass linting.
+
+E:\Code\AngularCLI\AngularTesting\AngularTesting>ng build
+Generating ES5 bundles for differential loading...
+ES5 bundle generation complete.
+
+chunk {polyfills} polyfills-es2015.js, polyfills-es2015.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime-es2015.js, runtime-es2015.js.map (runtime) 6.16 kB [entry] [rendered]
+chunk {runtime} runtime-es5.js, runtime-es5.js.map (runtime) 6.16 kB [entry] [rendered]
+chunk {styles} styles-es2015.js, styles-es2015.js.map (styles) 10.7 kB [initial] [rendered]
+chunk {styles} styles-es5.js, styles-es5.js.map (styles) 12 kB [initial] [rendered]
+chunk {main} main-es2015.js, main-es2015.js.map (main) 35.2 kB [initial] [rendered]
+chunk {main} main-es5.js, main-es5.js.map (main) 39.5 kB [initial] [rendered]
+chunk {polyfills-es5} polyfills-es5.js, polyfills-es5.js.map (polyfills-es5) 654 kB [initial] [rendered]
+chunk {vendor} vendor-es2015.js, vendor-es2015.js.map (vendor) 2.65 MB [initial] [rendered]
+chunk {vendor} vendor-es5.js, vendor-es5.js.map (vendor) 3.12 MB [initial] [rendered]
+Date: 2020-02-29T19:50:35.588Z - Hash: f9d749f441cc6e36e2c9 - Time: 38891ms
+
+WARNING in ./src/app/app.component.scss
+Module Warning (from ./node_modules/postcss-loader/src/index.js):
+Warning
+
+(16:3) Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
